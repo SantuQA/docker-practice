@@ -1,0 +1,23 @@
+{
+  "name": "docker-practice",
+  "version": "1.0.0",
+  "description": "<!-- \r     //create directory\r     mkdir docker-practice\r     //npm initialization\r     npm init -y\r     //install dependency express \r     npm i express\r     //docker build a container using Dockerfile \r     docker build -t node-app-image .\r     //show all image \r     docker image ls\r     //run container on a specific port \r     docker run -p 3000:3000 -d  --name node-app  node-app-image\r     //show container\r     docker ps\r     //remove a container \r     docker rm node-app -f\r     //open container directory \r     docker exec -it node-app bash\r  -->",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SantuQA/docker-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SantuQA/docker-practice/issues"
+  },
+  "homepage": "https://github.com/SantuQA/docker-practice#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
